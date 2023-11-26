@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root {
+    --primary-color: #005377;
+    --secondary-color: #D5C67A;
+    --accent1-color:#17BEBB;
+    --accent-color:#916953 ;
+
+    --heading-font: 'Ubuntu' , serif;
+    --paragraph-font: 'Ubuntu', serif;
+
+    
+}
