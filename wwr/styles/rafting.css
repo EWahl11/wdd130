@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+:root {
+    --primary-color: #005377;
+    --secondary-color: #D5C67A;
+    --accent1-color:#17BEBB;
+    --accent-color:#916953 ;
+
+    --heading-font: 'Ubuntu' , serif;
+    --paragraph-font: 'Ubuntu', serif;
+
+    --nav-background-color:  #005377;
+    --nav-link-color: #D5C67A;
+    --nav-hover-link-color: #17BEBB;
+    --nav-hover-background-color: #916953;
+}
+h2, h3, h4, h5, h6{
+    font-family: var(--heading-font);
+    color: var(--primary-color)
+}
+p {
+    padding: 20px;
+    font-family: var(--paragraph-font);
+    color: var(--primary-color)
+}
+.sociallinks{
+    text-decoration: none;
+   }
+.sociallinks img{
+    width: 50px;
+    height: auto;
+
+}   
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+h1{
+    position:absolute;
+    font-family: var(--heading-font);
+    color: var(--accent-color)
+}
+article{
+    position: block;
+}
+article img{
+    float: right;
+    width: 150px;
+    height: auto;
+}
+section img{
+    width: 150px;
+    height: auto;
+}
