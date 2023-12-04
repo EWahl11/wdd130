@@ -52,7 +52,7 @@ article{
 article img{
    position: absolute;
     float: right;
-    width: 150px;
+    width: 250px;
     height: auto;
     top: 100px;
     right: 100px;
@@ -100,7 +100,7 @@ float: right;
 }
 section img{
     display: flex;
-    width: 200px;
+    width: 300px;
     height: auto; 
     align-content: space-around;
 }
