@@ -37,16 +37,12 @@ p {
     position: relative;
 }
 h1{
-    position: absolute;
-    top: 150px;
-    left: 100px;
+   
     font-family: var(--heading-font);
     color: var(--accent1-color)
 }
 article{
-    position: absolute;
     clear:both;
-    background-color: var(--primary-color);
     font: var(--secondary-color);
 }
 article img{
@@ -98,9 +94,31 @@ footer{
  footer nav{
 float: right;
 }
-section img{
+section{
     display: flex;
+    align-content: space-around;
+}
+section img{
     width: 300px;
     height: auto; 
-    align-content: space-around;
+}
+form{
+    width:500px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: .5rem;
+    background-color: var(--secondary-color);
+}
+fieldset{
+    padding: 1rem;
+}
+fieldset p{
+    margin: 0;
+    padding: 0;
+
+}
+button{
+    background-color: var(--accent-color);
+    color: var(--secondary-color);
 }
