@@ -43,7 +43,7 @@ h1{
 }
 article{
     clear:both;
-    font: var(--secondary-color);
+    font: var(--heading-font);
 }
 article img{
    position: absolute;
