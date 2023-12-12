@@ -37,7 +37,6 @@ p {
     position: relative;
 }
 h1{
-   
     font-family: var(--heading-font);
     color: var(--accent1-color)
 }
@@ -122,3 +121,7 @@ button{
     background-color: var(--accent-color);
     color: var(--secondary-color);
 }
+.grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr))
+    }
